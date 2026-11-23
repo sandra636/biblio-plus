@@ -1,26 +1,10 @@
 <script setup>
-import { ref } from 'vue'
-const query = ref('')
-const featured = ref([
- { id: 1, title: 'Le Petit Prince', author: 'A. de Saint-Exupéry',
- available: true },
- { id: 2, title: 'Germinal', author: 'É. Zola', available: false },
-])
+import AppHeader from '@/components/AppHeader.vue'
+import AppFooter from '@/components/AppFooter.vue'
+import HomeView from '@/views/HomeView.vue'
 </script>
 <template>
- <h1>Biblio+</h1>
- <input v-model="query" type="search" placeholder="Titre, auteur…" />
- <p>Recherche en cours : {{ query }}</p>
- <ul>
- <li v-for="book in featured" :key="book.id">
-<button type="button" @click="book.available = !book.available">
- Changer le statut
-</button>
-
-
- {{ book.title }} — {{ book.author }}
- <strong v-if="book.available">Disponible</strong>
- <em v-else>Emprunté</em>
- </li>
- </ul>
+ <AppHeader />
+ <main id="contenu"><HomeView /></main>
+ <AppFooter />
 </template>
