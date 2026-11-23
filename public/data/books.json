@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "title": "Le Petit Prince",
+        "author": "Antoine de Saint-Exupéry",
+        "category": "Roman",
+        "year": 1943,
+        "available": true,
+        "cover": "/covers/petit-prince.jpg",
+        "summary": "Un aviateur échoué dans le désert rencontre un petit prince."
+    }
+]
