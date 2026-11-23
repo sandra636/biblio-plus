@@ -13,9 +13,10 @@ const featured = ref([
  <p>Recherche en cours : {{ query }}</p>
  <ul>
  <li v-for="book in featured" :key="book.id">
- button type="button" @click="book.available = !book.available">
+<button type="button" @click="book.available = !book.available">
  Changer le statut
 </button>
+
 
  {{ book.title }} — {{ book.author }}
  <strong v-if="book.available">Disponible</strong>
