@@ -11,6 +11,10 @@
  </header>
 </template>
 <style scoped>
+.app-header__nav a.router-link-active {
+ font-weight: 700;
+ border-bottom: 2px solid currentColor;
+}
 .app-header { display: flex; justify-content: space-between;
  align-items: center; padding: var(--space-4) var(--space-6);
  background: var(--color-primary); color: var(--color-primary-contrast); }
