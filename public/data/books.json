@@ -8,5 +8,35 @@
         "available": true,
         "cover": "/covers/petit-prince.jpg",
         "summary": "Un aviateur échoué dans le désert rencontre un petit prince."
+    },
+    {
+        "id": 2,
+        "title": "petit djo",
+        "author": "pagbe mongo",
+        "category": "Roman",
+        "year": 1943,
+        "available": true,
+        "cover": "/covers/petit-prince.jpg",
+        "summary": "Un aviateur échoué dans le désert rencontre un petit prince."
+    },
+    {
+        "id": 3,
+        "title": "Aux bonheurs des dames",
+        "author": "Emilie Zola",
+        "category": "Roman",
+        "year": 1943,
+        "available": true,
+        "cover": "/covers/petit-prince.jpg",
+        "summary": "Un aviateur échoué dans le désert rencontre un petit prince."
+    },
+    {
+        "id": 1,
+        "title": "Misanthrope",
+        "author": "Moliere",
+        "category": "Roman",
+        "year": 1943,
+        "available": true,
+        "cover": "/covers/petit-prince.jpg",
+        "summary": "Un aviateur échoué dans le désert rencontre un petit prince."
     }
 ]
